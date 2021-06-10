@@ -10,6 +10,7 @@ data "vault_generic_secret" "mq-userpass" {
 }
 
 
+
 locals {
   username=data.vault_generic_secret.mq-userpass.data.username
   password=data.vault_generic_secret.mq-userpass.data.password

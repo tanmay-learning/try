@@ -1,0 +1,5 @@
+version: 3
+automerge: true
+projects:
+- name: pmi-qa-rabbit-mq-creation
+  dir: ./a/
